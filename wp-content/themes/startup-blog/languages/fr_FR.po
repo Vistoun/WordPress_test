@@ -1,0 +1,834 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Startup Blog\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2018-05-29 16:32+0200\n"
+"PO-Revision-Date: 2018-05-29 16:32+0200\n"
+"Last-Translator: Guillaume Blet <guillaume.blet@mycinetheque.fr>\n"
+"Language-Team: Guillaume Blet\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:6
+msgid "404: Page Not Found"
+msgstr "Erreur : la page est introuvable"
+
+#: 404.php:9
+msgid "Sorry, we couldn't find a page at this URL"
+msgstr "Cette page s'est égarée en cours de chemin"
+
+#: 404.php:10
+msgid ""
+"Please double-check that the URL is correct or try searching our site with "
+"the form below."
+msgstr ""
+"Nous vous conseillons d'effectuer une autre recherche ou de parcourir nos "
+"catégories pour trouver un article similaire à celui que vous recherchez sur "
+"notre blog. Nous vous prions de bien vouloir nous en excuser. Bonne visite "
+"dans nos pages."
+
+#. translators: %s = link to the trackback URL
+#: comments.php:37
+#, php-format
+msgid ""
+"Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
+"\">trackbacks</a> and pingbacks are open."
+msgstr ""
+"Les commentaires sont fermés, mais les <a href=\"%s\" title=\"Adresse de "
+"suivi pour cet article\">rétroliens</a> sont ouverts."
+
+#: comments.php:55 comments.php:71
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: content-page.php:11 content.php:16 templates/full-width.php:21
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-slide.php:21 inc/customizer.php:278
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: content/archive-header.php:8
+msgctxt "Posts published in CATEGORY"
+msgid "Posts published in"
+msgstr "Articles publiés dans"
+
+#: content/archive-header.php:12
+msgid "Posts tagged as"
+msgstr "Tous les articles marqués"
+
+#: content/archive-header.php:15
+msgctxt "Posts published by AUTHOR"
+msgid "Posts published by"
+msgstr "Articles publiés par"
+
+#: content/archive-header.php:19
+msgctxt "Posts published in MONTH"
+msgid "Posts published in"
+msgstr "Articles publiés dans"
+
+#: content/comments-link.php:14
+msgid "comment icon"
+msgstr "icône du commentaire"
+
+#. translators: %s = the date the post was published
+#: content/post-byline.php:20
+#, php-format
+msgctxt "This blog post was published on some date"
+msgid "Published %s"
+msgstr "Publié le %s"
+
+#. translators: %s = the author who published the post
+#: content/post-byline.php:23
+#, php-format
+msgctxt "This blog post was published by some author"
+msgid "Published by %s"
+msgstr "Publié par %s"
+
+#. translators: %1$s = the date the post was published. %2$s = the author who published it
+#: content/post-byline.php:26
+#, php-format
+msgctxt "This blog post was published on some date by some author"
+msgid "Published %1$s by %2$s"
+msgstr "Publié %1$s par %2$s"
+
+#: content/post-categories.php:10
+msgctxt "PUBLISHED IN post category"
+msgid "Published in"
+msgstr "Publié dans"
+
+#: content/post-categories.php:14
+msgctxt "category AND category"
+msgid "and"
+msgstr "et"
+
+#. translators: %s = the name of the post category
+#: content/post-categories.php:17
+#, php-format
+msgctxt "View all posts in post category"
+msgid "View all posts in %s"
+msgstr "Voir tous les articles dans %s"
+
+#. translators: %s = the name of the post tag
+#: content/post-tags.php:11
+#, php-format
+msgid "View all posts tagged %s"
+msgstr "Voir les articles marqués %s"
+
+# Merci de ne pas utiliser mon nom et prénom.
+#. translators: %1$s = URL to the theme's page. %2$s = theme name
+#: footer.php:25
+#, php-format
+msgid "<a href=\"%1$s\">%2$s</a> by Compete Themes."
+msgstr "<a href=\"%1$s\">%2$s</a> par Compete Themes."
+
+#: functions.php:15
+msgid ""
+"Hey! Sorry to interrupt, but you've been using Startup Blog for a little "
+"while now. If you're happy with this theme, could you take a minute to leave "
+"a review? <i>You won't see this notice again after closing it.</i>"
+msgstr ""
+"Bonjour ! Nous sommes désolés de vous interrompre, mais vous utilisez "
+"maintenant Startup Blog depuis un moment. Si vous êtes satisfait de ce "
+"thème, pourriez-vous prendre une petite minute pour laisser un commentaire "
+"sur notre site ? <em>Ce message disparaîtra après sa fermeture.</em>"
+
+#: functions.php:70
+msgid "Primary"
+msgstr "Primaire"
+
+#: functions.php:71
+msgid "Secondary"
+msgstr "Secondaire"
+
+#: functions.php:89
+msgid "Primary Sidebar"
+msgstr "Barre latérale principale"
+
+#: functions.php:91
+msgid ""
+"Widgets in this area will be shown in the sidebar next to the main content."
+msgstr ""
+"Les widgets dans cette zone seront affichés dans la barre latérale à côté du "
+"contenu principal."
+
+#: functions.php:98
+msgid "After Post Content"
+msgstr "Après le contenu de l’article"
+
+#: functions.php:100
+msgid "Widgets in this area will be shown on posts after the content."
+msgstr ""
+"Les widgets dans cette zone seront affichés sur les articles après le "
+"contenu."
+
+#: functions.php:107
+msgid "After Page Content"
+msgstr "Après le contenu de la page"
+
+#: functions.php:109
+msgid "Widgets in this area will be shown on pages after the content."
+msgstr ""
+"Les widgets dans cette zone seront affichés sur les pages après le contenu."
+
+#: functions.php:116
+msgid "Footer"
+msgstr "Pied de page"
+
+#: functions.php:118
+msgid "Widgets in this area will be shown in the footer."
+msgstr "Les widgets dans cette zone seront affichés dans le pied de page."
+
+#: functions.php:232
+msgid "Featured"
+msgstr "Mis en avant"
+
+#: functions.php:316
+msgid "Customizer settings deleted."
+msgstr "Réglage personnalisé supprimé."
+
+#: functions.php:322
+#, php-format
+msgid "%s successfully activated!"
+msgstr "%s a été activé avec succès !"
+
+#: functions.php:742
+msgid "(title)"
+msgstr "(titre)"
+
+#: header.php:11
+msgid "Press \"Enter\" to skip to content"
+msgstr "Appuyer sur \"Entrée\" pour passer au contenu"
+
+#: header.php:23 header.php:40 inc/scripts.php:16
+msgid "open menu"
+msgstr "ouvrir le menu"
+
+#: inc/comments.php:17
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: inc/comments.php:29
+msgid "Edit"
+msgstr "Editer"
+
+#: inc/comments.php:46
+msgid "(optional)"
+msgstr "(facultatif)"
+
+#: inc/comments.php:51
+msgid "Name"
+msgstr "Nom"
+
+#: inc/comments.php:52
+msgid "Jane Doe"
+msgstr "Jane Doe"
+
+#: inc/comments.php:58
+msgid "Email"
+msgstr "Email"
+
+#: inc/comments.php:59
+msgid "name@email.com"
+msgstr "jane.doe@orange.fr"
+
+#: inc/comments.php:65
+msgid "Website"
+msgstr "Site Web"
+
+#: inc/comments.php:89
+msgid "Comment"
+msgstr "Commentaire"
+
+#: inc/customizer.php:19
+msgid "Front Page"
+msgstr "Page d’accueil"
+
+#. translators: %1$s = link to theme page. %2$s = theme name
+#: inc/customizer.php:36
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\">%2$s Pro</a> makes advanced customization "
+"simple - and fun too!"
+msgstr ""
+"<a target=\"_blank\" href=\"%1$s\">%2$s</a> (version payante) simplifie la "
+"personnalisation avancée !"
+
+#. translators: %s = theme name
+#: inc/customizer.php:38
+#, php-format
+msgctxt "Startup Blog Pro adds the following features:"
+msgid "%s Pro adds the following features:"
+msgstr "%s (version payante) ajoute les fonctionnalités suivantes :"
+
+#: inc/customizer.php:40
+msgid "6 new layouts"
+msgstr "6 nouvelles mises en page"
+
+#: inc/customizer.php:41
+msgid "4 post templates"
+msgstr "4 modèles d’articles"
+
+#: inc/customizer.php:42
+msgid "61 advanced color controls"
+msgstr "61 contrôles de couleur avancés"
+
+#: inc/customizer.php:43
+msgid "+ 5 more features"
+msgstr "5 autres fonctionnalités"
+
+#. translators: %s = theme name
+#: inc/customizer.php:46
+#, php-format
+msgctxt "View Startup Blog Pro"
+msgid "View %s Pro"
+msgstr "Visualiser %s"
+
+#: inc/customizer.php:84
+msgid "Add a Page"
+msgstr "Ajouter une page"
+
+#: inc/customizer.php:100
+msgid ""
+"Add a <a href=\"#\" class=\"featured-image-link\"><i class=\"fa fa-search-"
+"plus\"></i> Featured Image</a> to any post/page to display a background "
+"image in the slider. Use the <a href=\"#\" class=\"excerpt-box-link\"><i "
+"class=\"fa fa-search-plus\"></i> Excerpt box</a> to craft a custom excerpt "
+"for any slide."
+msgstr ""
+"Ajouter une <a href=\"#\" class=\"featured-image-link\"><i class=\"fa fa-"
+"search-plus\"></i> image à la une </a> sur n'importe quel article et page "
+"pour afficher une image de fond dans le carrousel d'images. Utiliser la <a "
+"href=\"#\" class=\"excerpt-box-link\"><i class=\"fa fa-search-plus\"></i> "
+"boîte à extraits</a> pour créer un extrait personnalisé pour tous les "
+"carrousels."
+
+#: inc/customizer.php:114
+msgid "Slider"
+msgstr "Carrousel d'images"
+
+#: inc/customizer.php:115
+msgid "Use these settings to add a slider to the header."
+msgstr ""
+"Utiliser ces paramètres pour ajouter un carrousel d'images à l'image d'en-"
+"tête."
+
+#. translators: %s = theme name
+#: inc/customizer.php:127
+#, php-format
+msgid "%s Pro"
+msgstr "%s (version payante)"
+
+#: inc/customizer.php:147
+msgid "Content"
+msgstr "Contenu"
+
+#: inc/customizer.php:158
+msgid "Use posts or pages?"
+msgstr "Articles ou pages ?"
+
+#: inc/customizer.php:163 inc/customizer.php:816
+msgid "Posts"
+msgstr "Articles"
+
+#: inc/customizer.php:164 inc/customizer.php:817
+msgid "Pages"
+msgstr "Pages"
+
+#: inc/customizer.php:174
+msgid "Number of posts in the slider"
+msgstr "Nombre d'articles dans le carrousel d'images de l'en-tête"
+
+#: inc/customizer.php:184
+msgid "All"
+msgstr "Toutes"
+
+#: inc/customizer.php:190
+msgid "Post category"
+msgstr "Catégorie de l’article"
+
+#: inc/customizer.php:203
+msgid "Add pages to the slider"
+msgstr "Ajouter des pages au carrousel d'images"
+
+#: inc/customizer.php:222
+msgid "Style"
+msgstr "Style"
+
+#: inc/customizer.php:233
+msgid "Display slider on:"
+msgstr "Afficher le carrousel d'images sur :"
+
+#: inc/customizer.php:238 inc/customizer.php:766
+msgid "Homepage"
+msgstr "Page d'accueil"
+
+#: inc/customizer.php:239 inc/customizer.php:664 inc/customizer.php:767
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer.php:240 inc/customizer.php:768
+msgid "All Pages"
+msgstr "Toutes les pages"
+
+#: inc/customizer.php:241 inc/customizer.php:769
+msgid "Do not display"
+msgstr "Ne pas afficher"
+
+#: inc/customizer.php:251
+msgid "Display arrow navigation?"
+msgstr "Affichage de la navigation fléchée ?"
+
+#: inc/customizer.php:256 inc/customizer.php:272 inc/customizer.php:300
+#: inc/customizer.php:328 inc/customizer.php:542 inc/customizer.php:558
+#: inc/customizer.php:574 inc/customizer.php:590 inc/customizer.php:606
+#: inc/customizer.php:622 inc/customizer.php:638 inc/customizer.php:679
+#: inc/customizer.php:710
+msgid "Yes"
+msgstr "Oui"
+
+#: inc/customizer.php:257 inc/customizer.php:273 inc/customizer.php:301
+#: inc/customizer.php:329 inc/customizer.php:527 inc/customizer.php:543
+#: inc/customizer.php:559 inc/customizer.php:575 inc/customizer.php:591
+#: inc/customizer.php:607 inc/customizer.php:623 inc/customizer.php:639
+#: inc/customizer.php:656 inc/customizer.php:680 inc/customizer.php:711
+#: inc/customizer.php:740 inc/customizer.php:754
+msgid "No"
+msgstr "Non"
+
+#: inc/customizer.php:267
+msgid "Display dot navigation?"
+msgstr "Afficher la navigation par point ?"
+
+#: inc/customizer.php:283
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: inc/customizer.php:295
+msgid "Automatically rotate through slides?"
+msgstr "Activer le défilement automatique du carrousel d'images ?"
+
+#: inc/customizer.php:311
+msgid "How many seconds between slides?"
+msgstr ""
+"Combien de secondes les images du carrousel doivent-elles rester en place ?"
+
+#: inc/customizer.php:323
+msgid "Include \"sticky\" posts?"
+msgstr "Inclure les publications épinglées ?"
+
+#: inc/customizer.php:337
+msgid "Colors"
+msgstr "Couleurs"
+
+#: inc/customizer.php:348
+msgid "Primary Color"
+msgstr "Couleur principale"
+
+#: inc/customizer.php:361
+msgid "Secondary Color"
+msgstr "Couleur secondaire"
+
+#: inc/customizer.php:374
+msgid "Background Color"
+msgstr "Couleur de l'arrière-plan"
+
+#: inc/customizer.php:384
+msgid "Layout"
+msgstr "Disposition"
+
+#: inc/customizer.php:394
+msgid "Choose a Layout"
+msgstr "Choisir la mise en page"
+
+#: inc/customizer.php:399 inc/customizer.php:797
+msgid "Right sidebar"
+msgstr "Barre latérale de droite"
+
+#: inc/customizer.php:400 inc/customizer.php:798
+msgid "Left sidebar"
+msgstr "Barre latérale de gauche"
+
+#: inc/customizer.php:408
+msgid "Social Media Icons"
+msgstr "Icônes des réseaux sociaux"
+
+#: inc/customizer.php:410
+msgid "Add the URL for each of your social profiles."
+msgstr "Ajouter l'adresse pour chacun de vos profils sociaux."
+
+#: inc/customizer.php:429 inc/user-profile.php:66
+msgid "Email Address"
+msgstr "Adresse email"
+
+#: inc/customizer.php:438 inc/user-profile.php:27
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/customizer.php:440 inc/user-profile.php:29
+msgid "RSS"
+msgstr "Flux RSS"
+
+#: inc/customizer.php:442 inc/user-profile.php:31
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: inc/customizer.php:444 inc/user-profile.php:33
+msgid "SlideShare"
+msgstr "SlideShare"
+
+#: inc/customizer.php:446 inc/user-profile.php:35
+msgid "CodePen"
+msgstr "CodePen"
+
+#: inc/customizer.php:448 inc/user-profile.php:37
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: inc/customizer.php:450 inc/user-profile.php:39
+msgid "DeviantArt"
+msgstr "DeviantArt"
+
+#: inc/customizer.php:452 inc/user-profile.php:41
+msgid "Hacker News"
+msgstr "Hacker News"
+
+#: inc/customizer.php:454 inc/user-profile.php:43
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: inc/customizer.php:456 inc/user-profile.php:45
+msgid "QQ"
+msgstr "QQ"
+
+#: inc/customizer.php:458 inc/user-profile.php:47
+msgid "VK"
+msgstr "VK"
+
+#: inc/customizer.php:460 inc/user-profile.php:49
+msgid "WeChat"
+msgstr "WeChat"
+
+#: inc/customizer.php:462 inc/user-profile.php:51
+msgid "Tencent Weibo"
+msgstr "Tencent Weibo"
+
+#: inc/customizer.php:464 inc/user-profile.php:53
+msgid "PayPal"
+msgstr "PayPal"
+
+#: inc/customizer.php:466 inc/user-profile.php:55
+msgid "Contact Form"
+msgstr "Formulaire de contact"
+
+#: inc/customizer.php:468 inc/user-profile.php:57
+msgid "Google Wallet"
+msgstr "Google Wallet"
+
+#: inc/customizer.php:470 inc/user-profile.php:59
+msgid "OK.ru"
+msgstr "OK.ru"
+
+#. translators: %s = link to article
+#: inc/customizer.php:483
+#, php-format
+msgid ""
+"Accepts Skype link protocol (<a href=\"%s\" target=\"_blank\">learn more</a>)"
+msgstr ""
+"Pour utiliser le protocole de Skype, veuillez consulter cette <a href=\"%s\" "
+"target=\"_blank\">documentation</a>."
+
+#: inc/customizer.php:509
+msgid "Show/Hide Elements"
+msgstr "Afficher/masquer des éléments"
+
+#: inc/customizer.php:519
+msgid "Show the tagline?"
+msgstr "Montrer le slogan ?"
+
+#: inc/customizer.php:524 inc/customizer.php:737
+msgid "Yes, in the header & footer"
+msgstr "Oui, dans l'en-tête et dans le pied de page"
+
+#: inc/customizer.php:525 inc/customizer.php:738
+msgid "Yes, in the header"
+msgstr "Oui, dans l’en-tête"
+
+#: inc/customizer.php:526 inc/customizer.php:739
+msgid "Yes, in the footer"
+msgstr "Oui, dans le pied de page"
+
+#: inc/customizer.php:537
+msgid "Show date in post byline?"
+msgstr "Afficher la date ?"
+
+#: inc/customizer.php:553
+msgid "Show author name in post byline?"
+msgstr "Afficher le nom de l’auteur ?"
+
+#: inc/customizer.php:569
+msgid "Show post author avatars?"
+msgstr "Afficher l'avatar de l'auteur ?"
+
+#: inc/customizer.php:585
+msgid "Show comment icon link?"
+msgstr "Afficher le lien de l'icône des commentaires ?"
+
+#: inc/customizer.php:601
+msgid "Show author box after posts?"
+msgstr "Afficher le profil de l’auteur ?"
+
+#: inc/customizer.php:617
+msgid "Show categories after the post?"
+msgstr "Afficher les catégories après l'article ?"
+
+#: inc/customizer.php:633
+msgid "Show tags after the post?"
+msgstr "Afficher les mots-clés après l'article ?"
+
+#: inc/customizer.php:649
+msgid "Show sidebar on mobile devices?"
+msgstr ""
+"Afficher la barre latérale dans les navigateurs des appareils mobiles ?"
+
+#: inc/customizer.php:654 inc/customizer.php:752
+msgid "Yes, after main content"
+msgstr "Oui, après le contenu de la page"
+
+#: inc/customizer.php:655 inc/customizer.php:753
+msgid "Yes, before main content"
+msgstr "Oui, après le contenu de la page"
+
+#: inc/customizer.php:674
+msgid "Show full posts on blog?"
+msgstr "Afficher les articles complets sur l'ensemble des pages ?"
+
+#: inc/customizer.php:690
+msgid "Excerpt word count"
+msgstr "Nombre de mots"
+
+#: inc/customizer.php:799
+msgid "No sidebar - Narrow"
+msgstr "Aucune barre latérale - Etroite"
+
+#: inc/customizer.php:800
+msgid "No sidebar - Wide"
+msgstr "Aucune barre latérale - Large"
+
+#: inc/customizer.php:801
+msgid "Two column - Right sidebar"
+msgstr "Deux colonnes - Barre latérale droite"
+
+#: inc/customizer.php:802
+msgid "Two column - Left sidebar"
+msgstr "Deux colonnes - Barre latérale gauche"
+
+#: inc/customizer.php:803
+msgid "Two column - No Sidebar - Narrow"
+msgstr "Deux colonnes - Aucune barre latérale - Etroite"
+
+#: inc/customizer.php:804
+msgid "Two column - No Sidebar - Wide"
+msgstr "Deux colonnes - Aucune barre latérale - Large"
+
+#: inc/review.php:113
+msgid "Click here to leave your review"
+msgstr "Cliquer ici pour laisser votre commentaire"
+
+#: inc/scripts.php:17
+msgid "close menu"
+msgstr "fermer le menu"
+
+#: inc/scripts.php:18
+msgid "open dropdown menu"
+msgstr "ouvrir le menu déroulant"
+
+#: inc/scripts.php:19
+msgid "close dropdown menu"
+msgstr "fermer le menu déroulant"
+
+#: inc/social-icons.php:116
+msgid "email"
+msgstr "email"
+
+#: inc/user-profile.php:18
+msgid "Social Profiles"
+msgstr "Gestion de réseaux"
+
+#. translators: %1$s = number of results. %2$s = search query
+#: search.php:9
+#, php-format
+msgid "%1$s search result for %2$s"
+msgid_plural "%1$s search results for %2$s"
+msgstr[0] "%1$s résultat pour %2$s"
+msgstr[1] "%1$s résultats pour %2$s"
+
+#. translators: %s = search query
+#: search.php:12
+#, php-format
+msgid "No search results for \"%s\""
+msgstr "Aucun résultat de recherche pour : « %s »"
+
+#: search.php:34
+msgid "Can't find what you're looking for?  Try refining your search:"
+msgstr ""
+"Vous ne trouvez pas ce que vous cherchez ? Merci d’affiner votre recherche :"
+
+#. translators: %s = theme name
+#: theme-options.php:11 theme-options.php:35
+#, php-format
+msgid "%s Dashboard"
+msgstr "%s"
+
+#: theme-options.php:41 theme-options.php:50
+msgid "Get Started"
+msgstr "Démarrer"
+
+#. translators: %s = theme name
+#: theme-options.php:45
+#, php-format
+msgid ""
+"Not sure where to start? The <strong>%1$s Getting Started Guide</strong> "
+"will take you step-by-step through every feature in  %1$s."
+msgstr ""
+"Savez-où vous allez commencer ? L'assistance de %1$s vous guide dans "
+"l'installation du thème de %1$s."
+
+#: theme-options.php:55
+msgid "Startup Blog Pro"
+msgstr "Startup Blog"
+
+#. translators: %s = theme name
+#: theme-options.php:59
+#, php-format
+msgid ""
+"Download the %s Pro plugin and unlock six new layouts, four post templates, "
+"advanced color controls, and more."
+msgstr ""
+"En téléchargeant le thème %s (version payante), vous allez obtenir 6 "
+"nouvelles mises en page, 4 modèles de page, des contrôles avancés, etc."
+
+#: theme-options.php:64
+msgid "See Full Feature List"
+msgstr "Voir la liste complète des caractéristiques"
+
+#: theme-options.php:69 theme-options.php:77
+msgid "Leave a Review"
+msgstr "Laisser un commentaire"
+
+#. translators: %s = theme name
+#: theme-options.php:73
+#, php-format
+msgid "Help others find %s by leaving a review on wordpress.org."
+msgstr ""
+"Aider les autres à trouver %s en laissant un commentaire sur wordpress.org."
+
+#: theme-options.php:80
+msgid "Turn Startup Blog into a Mobile App"
+msgstr "Transformer Startup Blog en une application mobile"
+
+#: theme-options.php:81
+#, php-format
+msgid ""
+"%s can be converted into a mobile app and listed on the App Store and Google "
+"Play Store with the help of PressPad News. Read our tutorial to learn more."
+msgstr ""
+"%s peut être converti en application mobile et répertorié dans l'App Store "
+"et le Google Play Store à l'aide de PressPad News. Liser notre tutoriel pour "
+"en savoir plus."
+
+#: theme-options.php:82
+msgid "Read Tutorial"
+msgstr "Lire le tutoriel"
+
+#: theme-options.php:85 theme-options.php:97
+msgid "Reset Customizer Settings"
+msgstr "Réinitialisation des paramètres"
+
+#. translators: %1$s = URL to theme page. %2$s = theme name
+#: theme-options.php:89
+#, php-format
+msgid ""
+"<strong>Warning:</strong> Clicking this button will erase the %2$s theme's "
+"current settings in the <a href=\"%1$s\">Customizer</a>."
+msgstr ""
+"<strong>Avertissement :</strong> en cliquant sur ce bouton, vous effacerez "
+"les paramètres actuels du thème %2$s dans le <a href=\"%1$s\">tableau de "
+"bord</a> de WordPress."
+
+#. Theme Name of the plugin/theme
+msgid "Startup Blog"
+msgstr "Startup Blog"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.competethemes.com/startup-blog/"
+msgstr "https://www.competethemes.com/startup-blog/"
+
+#. Description of the plugin/theme
+msgid ""
+"Startup Blog is a modern and minimalist theme for blogging. Use it for your "
+"company's business blog or a personal journal website. It's fully responsive "
+"(mobile-friendly), so it looks great on all devices. The simple and clean "
+"aesthetic of this free theme emphasizes your content and helps it perform "
+"well across all screens. Startup Blog comes with numerous features including "
+"a responsive slider, header image, custom colors, two layouts, display "
+"options, and over 50+ social media icons. With complete WooCommerce "
+"integration, you can even launch an eCommerce store on your site. Startup "
+"Blog’s slick design is best-suited for professional and corporate blogs, but "
+"can work well for resumes, magazines, and even modern newspaper sites. View "
+"the fast and interactive demo on any device now to see if Startup Blog is "
+"right for your site: https://www.competethemes.com/demos/?theme=Startup"
+"%20Blog"
+msgstr ""
+"Startup Blog est un thème moderne et minimaliste pour les blogs. Il peut "
+"être utilisé pour le site d'une entreprise ou un usage personnel. Il possède "
+"un design réactif et il fonctionne sur n'importe quel mobile ou tablette. "
+"Son esthétique simple adaptera la taille du contenu en fonction de "
+"l'appareil sur lequel vous le consultez. \n"
+"<br />Startup Blog est livré avec de nombreuses fonctionnalités, comme un "
+"curseur réactif, une image d'en-tête, des couleurs personnalisées, des "
+"options d'affichage, deux mises en page et plus de 50 icônes de médias "
+"sociaux.\n"
+"<br />Avec l'intégration de WooCommerce dans Startup Blog, vous pourrez "
+"concevoir un magasin eCommerce sur votre site. Le design « slick » de "
+"Startup Blog est le mieux adapté aux sites de commerce, mais il peut aussi "
+"fonctionner pour éditer des curriculum vitae, des magazines, des modèles de "
+"journaux. \n"
+"<br /> Pour tester la comptabilité entre Startup Blog et votre site, la "
+"démonstration interactive est à votre disposition : <a href=\"https://www."
+"competethemes.com/demos/?theme=Startup%20Blog\" target=\"_blank\">https://"
+"www.competethemes.com/demos/?theme=Startup%20Blog</a>"
+
+#. Author of the plugin/theme
+msgid "Compete Themes"
+msgstr "Compete Themes"
+
+#. Author URI of the plugin/theme
+msgid "https://www.competethemes.com/"
+msgstr "https://www.competethemes.com/"
+
+#~ msgid "Full-width"
+#~ msgstr "Toute la largeur"
+
+#~ msgid ""
+#~ "Unable to connect to the filesystem. Please confirm your credentials."
+#~ msgstr ""
+#~ "Il est impossible de se connecter au système de fichiers et nous vous "
+#~ "demandons de confirmer vos informations d'identification."
+
+#~ msgid "Visit Support Center"
+#~ msgstr "Visiter le centre de support"
